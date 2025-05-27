@@ -2,6 +2,7 @@ import song_reader
 import time
 from codrone_edu.drone import *
 drone = Drone()
+drone.pair()
 
 minecraft_sweden = [
     (Note.E4, 600),
